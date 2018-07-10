@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B89FA9EF20F579E2003D9FD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89FA9EE20F579E2003D9FD8 /* AppDelegate.swift */; };
+		B89FA9F120F579E2003D9FD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89FA9F020F579E2003D9FD8 /* ViewController.swift */; };
+		B89FA9F420F579E3003D9FD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B89FA9F220F579E2003D9FD8 /* Main.storyboard */; };
+		B89FA9F620F579E3003D9FD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B89FA9F520F579E3003D9FD8 /* Assets.xcassets */; };
+		B89FA9F920F579E3003D9FD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B89FA9F720F579E3003D9FD8 /* LaunchScreen.storyboard */; };
+		B89FAA0420F579E3003D9FD8 /* PrestonSeguraTipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89FAA0320F579E3003D9FD8 /* PrestonSeguraTipCalculatorTests.swift */; };
+		B89FAA0F20F579E3003D9FD8 /* PrestonSeguraTipCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89FAA0E20F579E3003D9FD8 /* PrestonSeguraTipCalculatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B89FAA0020F579E3003D9FD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B89FA9E320F579E2003D9FD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B89FA9EA20F579E2003D9FD8;
+			remoteInfo = PrestonSeguraTipCalculator;
+		};
+		B89FAA0B20F579E3003D9FD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B89FA9E320F579E2003D9FD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B89FA9EA20F579E2003D9FD8;
+			remoteInfo = PrestonSeguraTipCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B89FA9EB20F579E2003D9FD8 /* PrestonSeguraTipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrestonSeguraTipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B89FA9EE20F579E2003D9FD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B89FA9F020F579E2003D9FD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B89FA9F320F579E3003D9FD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B89FA9F520F579E3003D9FD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B89FA9F820F579E3003D9FD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B89FA9FA20F579E3003D9FD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B89FA9FF20F579E3003D9FD8 /* PrestonSeguraTipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrestonSeguraTipCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B89FAA0320F579E3003D9FD8 /* PrestonSeguraTipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrestonSeguraTipCalculatorTests.swift; sourceTree = "<group>"; };
+		B89FAA0520F579E3003D9FD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B89FAA0A20F579E3003D9FD8 /* PrestonSeguraTipCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrestonSeguraTipCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B89FAA0E20F579E3003D9FD8 /* PrestonSeguraTipCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrestonSeguraTipCalculatorUITests.swift; sourceTree = "<group>"; };
+		B89FAA1020F579E3003D9FD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B89FA9E820F579E2003D9FD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B89FA9FC20F579E3003D9FD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B89FAA0720F579E3003D9FD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B89FA9E220F579E2003D9FD8 = {
+			isa = PBXGroup;
+			children = (
+				B89FA9ED20F579E2003D9FD8 /* PrestonSeguraTipCalculator */,
+				B89FAA0220F579E3003D9FD8 /* PrestonSeguraTipCalculatorTests */,
+				B89FAA0D20F579E3003D9FD8 /* PrestonSeguraTipCalculatorUITests */,
+				B89FA9EC20F579E2003D9FD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B89FA9EC20F579E2003D9FD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B89FA9EB20F579E2003D9FD8 /* PrestonSeguraTipCalculator.app */,
+				B89FA9FF20F579E3003D9FD8 /* PrestonSeguraTipCalculatorTests.xctest */,
+				B89FAA0A20F579E3003D9FD8 /* PrestonSeguraTipCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B89FA9ED20F579E2003D9FD8 /* PrestonSeguraTipCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				B89FA9EE20F579E2003D9FD8 /* AppDelegate.swift */,
+				B89FA9F020F579E2003D9FD8 /* ViewController.swift */,
+				B89FA9F220F579E2003D9FD8 /* Main.storyboard */,
+				B89FA9F520F579E3003D9FD8 /* Assets.xcassets */,
+				B89FA9F720F579E3003D9FD8 /* LaunchScreen.storyboard */,
+				B89FA9FA20F579E3003D9FD8 /* Info.plist */,
+			);
+			path = PrestonSeguraTipCalculator;
+			sourceTree = "<group>";
+		};
+		B89FAA0220F579E3003D9FD8 /* PrestonSeguraTipCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				B89FAA0320F579E3003D9FD8 /* PrestonSeguraTipCalculatorTests.swift */,
+				B89FAA0520F579E3003D9FD8 /* Info.plist */,
+			);
+			path = PrestonSeguraTipCalculatorTests;
+			sourceTree = "<group>";
+		};
+		B89FAA0D20F579E3003D9FD8 /* PrestonSeguraTipCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B89FAA0E20F579E3003D9FD8 /* PrestonSeguraTipCalculatorUITests.swift */,
+				B89FAA1020F579E3003D9FD8 /* Info.plist */,
+			);
+			path = PrestonSeguraTipCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B89FA9EA20F579E2003D9FD8 /* PrestonSeguraTipCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B89FAA1320F579E3003D9FD8 /* Build configuration list for PBXNativeTarget "PrestonSeguraTipCalculator" */;
+			buildPhases = (
+				B89FA9E720F579E2003D9FD8 /* Sources */,
+				B89FA9E820F579E2003D9FD8 /* Frameworks */,
+				B89FA9E920F579E2003D9FD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrestonSeguraTipCalculator;
+			productName = PrestonSeguraTipCalculator;
+			productReference = B89FA9EB20F579E2003D9FD8 /* PrestonSeguraTipCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B89FA9FE20F579E3003D9FD8 /* PrestonSeguraTipCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B89FAA1620F579E3003D9FD8 /* Build configuration list for PBXNativeTarget "PrestonSeguraTipCalculatorTests" */;
+			buildPhases = (
+				B89FA9FB20F579E3003D9FD8 /* Sources */,
+				B89FA9FC20F579E3003D9FD8 /* Frameworks */,
+				B89FA9FD20F579E3003D9FD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B89FAA0120F579E3003D9FD8 /* PBXTargetDependency */,
+			);
+			name = PrestonSeguraTipCalculatorTests;
+			productName = PrestonSeguraTipCalculatorTests;
+			productReference = B89FA9FF20F579E3003D9FD8 /* PrestonSeguraTipCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B89FAA0920F579E3003D9FD8 /* PrestonSeguraTipCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B89FAA1920F579E3003D9FD8 /* Build configuration list for PBXNativeTarget "PrestonSeguraTipCalculatorUITests" */;
+			buildPhases = (
+				B89FAA0620F579E3003D9FD8 /* Sources */,
+				B89FAA0720F579E3003D9FD8 /* Frameworks */,
+				B89FAA0820F579E3003D9FD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B89FAA0C20F579E3003D9FD8 /* PBXTargetDependency */,
+			);
+			name = PrestonSeguraTipCalculatorUITests;
+			productName = PrestonSeguraTipCalculatorUITests;
+			productReference = B89FAA0A20F579E3003D9FD8 /* PrestonSeguraTipCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B89FA9E320F579E2003D9FD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "SCMACEXT-00";
+				TargetAttributes = {
+					B89FA9EA20F579E2003D9FD8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					B89FA9FE20F579E3003D9FD8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B89FA9EA20F579E2003D9FD8;
+					};
+					B89FAA0920F579E3003D9FD8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B89FA9EA20F579E2003D9FD8;
+					};
+				};
+			};
+			buildConfigurationList = B89FA9E620F579E2003D9FD8 /* Build configuration list for PBXProject "PrestonSeguraTipCalculator" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B89FA9E220F579E2003D9FD8;
+			productRefGroup = B89FA9EC20F579E2003D9FD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B89FA9EA20F579E2003D9FD8 /* PrestonSeguraTipCalculator */,
+				B89FA9FE20F579E3003D9FD8 /* PrestonSeguraTipCalculatorTests */,
+				B89FAA0920F579E3003D9FD8 /* PrestonSeguraTipCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B89FA9E920F579E2003D9FD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B89FA9F920F579E3003D9FD8 /* LaunchScreen.storyboard in Resources */,
+				B89FA9F620F579E3003D9FD8 /* Assets.xcassets in Resources */,
+				B89FA9F420F579E3003D9FD8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B89FA9FD20F579E3003D9FD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B89FAA0820F579E3003D9FD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B89FA9E720F579E2003D9FD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B89FA9F120F579E2003D9FD8 /* ViewController.swift in Sources */,
+				B89FA9EF20F579E2003D9FD8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B89FA9FB20F579E3003D9FD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B89FAA0420F579E3003D9FD8 /* PrestonSeguraTipCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B89FAA0620F579E3003D9FD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B89FAA0F20F579E3003D9FD8 /* PrestonSeguraTipCalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B89FAA0120F579E3003D9FD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B89FA9EA20F579E2003D9FD8 /* PrestonSeguraTipCalculator */;
+			targetProxy = B89FAA0020F579E3003D9FD8 /* PBXContainerItemProxy */;
+		};
+		B89FAA0C20F579E3003D9FD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B89FA9EA20F579E2003D9FD8 /* PrestonSeguraTipCalculator */;
+			targetProxy = B89FAA0B20F579E3003D9FD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B89FA9F220F579E2003D9FD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B89FA9F320F579E3003D9FD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B89FA9F720F579E3003D9FD8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B89FA9F820F579E3003D9FD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B89FAA1120F579E3003D9FD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B89FAA1220F579E3003D9FD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B89FAA1420F579E3003D9FD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PrestonSeguraTipCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.PrestonSeguraTipCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B89FAA1520F579E3003D9FD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PrestonSeguraTipCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.PrestonSeguraTipCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B89FAA1720F579E3003D9FD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PrestonSeguraTipCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.PrestonSeguraTipCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrestonSeguraTipCalculator.app/PrestonSeguraTipCalculator";
+			};
+			name = Debug;
+		};
+		B89FAA1820F579E3003D9FD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PrestonSeguraTipCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.PrestonSeguraTipCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrestonSeguraTipCalculator.app/PrestonSeguraTipCalculator";
+			};
+			name = Release;
+		};
+		B89FAA1A20F579E3003D9FD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PrestonSeguraTipCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.PrestonSeguraTipCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PrestonSeguraTipCalculator;
+			};
+			name = Debug;
+		};
+		B89FAA1B20F579E3003D9FD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PrestonSeguraTipCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.PrestonSeguraTipCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PrestonSeguraTipCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B89FA9E620F579E2003D9FD8 /* Build configuration list for PBXProject "PrestonSeguraTipCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B89FAA1120F579E3003D9FD8 /* Debug */,
+				B89FAA1220F579E3003D9FD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B89FAA1320F579E3003D9FD8 /* Build configuration list for PBXNativeTarget "PrestonSeguraTipCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B89FAA1420F579E3003D9FD8 /* Debug */,
+				B89FAA1520F579E3003D9FD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B89FAA1620F579E3003D9FD8 /* Build configuration list for PBXNativeTarget "PrestonSeguraTipCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B89FAA1720F579E3003D9FD8 /* Debug */,
+				B89FAA1820F579E3003D9FD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B89FAA1920F579E3003D9FD8 /* Build configuration list for PBXNativeTarget "PrestonSeguraTipCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B89FAA1A20F579E3003D9FD8 /* Debug */,
+				B89FAA1B20F579E3003D9FD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B89FA9E320F579E2003D9FD8 /* Project object */;
+}
