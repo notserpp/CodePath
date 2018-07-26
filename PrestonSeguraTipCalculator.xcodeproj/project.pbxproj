@@ -14,6 +14,7 @@
 		B89FA9F920F579E3003D9FD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B89FA9F720F579E3003D9FD8 /* LaunchScreen.storyboard */; };
 		B89FAA0420F579E3003D9FD8 /* PrestonSeguraTipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89FAA0320F579E3003D9FD8 /* PrestonSeguraTipCalculatorTests.swift */; };
 		B89FAA0F20F579E3003D9FD8 /* PrestonSeguraTipCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89FAA0E20F579E3003D9FD8 /* PrestonSeguraTipCalculatorUITests.swift */; };
+		E0F77D2D210A61F300752128 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F77D2C210A61F300752128 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B89FAA0A20F579E3003D9FD8 /* PrestonSeguraTipCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrestonSeguraTipCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B89FAA0E20F579E3003D9FD8 /* PrestonSeguraTipCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrestonSeguraTipCalculatorUITests.swift; sourceTree = "<group>"; };
 		B89FAA1020F579E3003D9FD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0F77D2C210A61F300752128 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				B89FA9EE20F579E2003D9FD8 /* AppDelegate.swift */,
 				B89FA9F020F579E2003D9FD8 /* ViewController.swift */,
 				B89FA9F220F579E2003D9FD8 /* Main.storyboard */,
+				E0F77D2C210A61F300752128 /* SettingsViewController.swift */,
 				B89FA9F520F579E3003D9FD8 /* Assets.xcassets */,
 				B89FA9F720F579E3003D9FD8 /* LaunchScreen.storyboard */,
 				B89FA9FA20F579E3003D9FD8 /* Info.plist */,
@@ -264,6 +267,7 @@
 			files = (
 				B89FA9F120F579E2003D9FD8 /* ViewController.swift in Sources */,
 				B89FA9EF20F579E2003D9FD8 /* AppDelegate.swift in Sources */,
+				E0F77D2D210A61F300752128 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
